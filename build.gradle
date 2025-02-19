@@ -19,17 +19,17 @@ repositories {
 
 	// Spigot
 	maven {
-		url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+		url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
 	}
 
 	// Bungeecord
 	maven {
-		url "https://oss.sonatype.org/content/repositories/snapshots/"
+		url = "https://oss.sonatype.org/content/repositories/snapshots/"
 	}
 
 	// Skript
 	maven {
-		url 'https://repo.skriptlang.org/releases'
+		url = 'https://repo.skriptlang.org/releases'
 	}
 
 }
